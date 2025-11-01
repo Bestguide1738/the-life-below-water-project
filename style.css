@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    text-align: center;
+    text-decoration: none; 
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+.banner{
+    background-color: rgb(22,98,161);
+    color: white;
+}
+nav{
+    font-size: 30px;
+    background-color: #2E8B57;
+}
+
+nav a{
+   color: whitesmoke;
+   font-weight: bold;
+   
+}
+.banner video{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    padding: 0 auto;
+   
+}
+
+.banner h1{
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    color: rgb(0, 0, 112);
+}
+.banner p{
+    position: absolute;
+    top: 60%;
+    font-size: 25px;
+    color:rgb(0, 0, 112) ;
+    width: 50%;
+}
+.extinct{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+.extinct img{
+    width: 250px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    border: none;
+}
+.extinct p{
+    font-size: 20px;
+}
+.welcome{
+    padding-bottom: 30px;
+    font-size: 20px;
+
+}
+.vision{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.pollute{
+    padding-bottom: 30px;
+    
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+   
+    
+}
+.pollute img{
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+}
+
+.copy p{
+    padding: 10px;
+    font-size: 20px;
+}
+.below{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.background{
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(22, 98, 161);
+}
+.main{
+    display: flex;
+
+}
+.mission{
+    width: 50%;
+}
+.main p{
+    font-size: 24px;
+}
+.main h3{
+    font-size: 22px;
+}
+.objectives{
+    font-size: 23px;
+    width: 50%;
+}
+.services{
+    display: flex;
+    width: 80%;
+    margin-left: 70px ;
+    margin-right: 70px;
+    gap: 60px;
+    
+}
+.services img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 17px;
+    object-fit: fill
+    
+}
+
+.loiter{
+    font-size: 20px;
+    padding: 20px;
+}
+.copy{
+    
+    background-color:#2E8B57;
+    padding: 13px;
+    color:white;
+    
+}
+.heading{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+.heading p{
+    font-size: 24px;
+}
+form{
+    font-size: 20px;
+    display: block;
+}
+.sign{
+    padding-bottom: 20px;
+}
+
+.sign input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color:#333;
+    background-color: rgba(255, 255, 255, 0.754);
+}
+
+.sign button{
+    width: 120px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign button:hover{
+    color: grey
+}
+.sign label{
+    display: block;
+}
+.follow{
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+}
+.link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
+.link ul, .link li{
+    padding: 8px;
+    color: white;
+}
+.link a{
+    color: rgb(50, 0, 250);
+    font-size: 23px;
+}
+.contact{
+    background-image: url(aerial.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.about{
+   background-image: url(seatu.JPG);
+   background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+/*media query for mobiles*/
+.home, .about, .contact{
+    font-size: 18px;
+}
+/*media for tablets*/
+@media (min-width: 768px){
+    .home, .about, .contact{
+        font-size: 18px;
+    }
+}
+/*media for desktops*/
+@media(min-width: 1024px){
+    .home, .about, .contact{
+        font-size: 20px;
+    }
+}
+
+
